@@ -41306,7 +41306,7 @@ a3.e===$&&A.b()
 b=a3.gFJ()
 a2=a3.a
 a2=a2.c
-a1=new A.tK(b,new A.a_Z(new A.JK(k,d,B.aI,c,s,a,a0,a4)),B.x,B.yJ,B.bO,!0,B.M_,!0,a4,a3.gRA(),a2!=null,a1,a3.d)
+a1=new A.tK(b,new A.a_Z(new A.JK(k,d,B.aI,c,s,a,a0,a4)),B.x,B.yK,B.bO,!0,B.M_,!0,a4,a3.gRA(),a2!=null,a1,a3.d)
 return a1}}
 A.a_Z.prototype={
 $2(a,b){return A.Ae(this.a,b)},
@@ -59305,12 +59305,12 @@ WA(a){var s=0,r=A.L(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d
 var $async$q7=A.M(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:if(m.w){s=1
 break}m.aI(new A.a2h(m))
-l=A.eC("https://api.openai.com/v1/chat/completions")
+l=A.eC("https://proxy.cors.sh/https://api.openai.com/v1/chat/completions")
 p=4
 g=t.N
-f=A.ad(["Content-Type","application/json; charset=utf-8","Authorization","Bearer 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"],g,g)
+f=A.ad(["Content-Type","application/json; charset=utf-8","Authorization","Bearer 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","x-cors-api-key","temp_57884841e25e9894f09d8d6d"],g,g)
 s=7
-return A.O(A.atn(l,B.aq.ly(A.ad(["model","gpt-4o","messages",A.d([A.ad(["role","system","content","You are E.V., a helpful concise voice assistant. 1. Default rule: Respond in concise English (within 2-3 sentences). 2. Exception: If the user asks for Korean translations, word definitions, or search inquiries in Korean, explain or respond in Korean naturally."],g,g),A.ad(["role","user","content",a],g,g)],t.A7),"max_tokens",150],g,t.K),null),f).zP(B.yK),$async$q7)
+return A.O(A.atn(l,B.aq.ly(A.ad(["model","gpt-4o","messages",A.d([A.ad(["role","system","content","You are E.V., a helpful concise voice assistant. 1. Default rule: Respond in concise English (within 2-3 sentences). 2. Exception: If the user asks for Korean translations, word definitions, or search inquiries in Korean, explain or respond in Korean naturally."],g,g),A.ad(["role","user","content",a],g,g)],t.A7),"max_tokens",150],g,t.K),null),f).zP(B.yJ),$async$q7)
 case 7:k=c
 if(k.b===200){j=B.aq.qM(B.G.dk(k.w),null)
 i=J.iC(J.iC(J.iC(J.iC(j,"choices"),0),"message"),"content")
@@ -62640,8 +62640,8 @@ B.yI=new A.qF(null,null,null,null)
 B.x=new A.aU(0)
 B.bO=new A.aU(1e5)
 B.fN=new A.aU(1e6)
-B.yJ=new A.aU(15e5)
-B.yK=new A.aU(15e6)
+B.yJ=new A.aU(12e6)
+B.yK=new A.aU(15e5)
 B.yL=new A.aU(16667)
 B.ap=new A.aU(2e5)
 B.cA=new A.aU(2e6)
