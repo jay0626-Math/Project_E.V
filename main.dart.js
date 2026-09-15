@@ -19604,10 +19604,10 @@ s.AG()},
 zZ:function zZ(a){this.a=a},
 qI:function qI(a){this.a=a},
 vR:function vR(){var _=this
-_.f=_.e=$
-_.w=_.r=!1
-_.x=""
-_.y="Press the button and start speaking."
+_.r=_.f=$
+_.x=_.w=!1
+_.y=""
+_.z="Press the button and start speaking."
 _.c=_.a=null},
 a2n:function a2n(a){this.a=a},
 a2o:function a2o(a){this.a=a},
@@ -41306,7 +41306,7 @@ a3.e===$&&A.b()
 b=a3.gFJ()
 a2=a3.a
 a2=a2.c
-a1=new A.tK(b,new A.a_Z(new A.JK(k,d,B.aI,c,s,a,a0,a4)),B.x,B.yK,B.bO,!0,B.M_,!0,a4,a3.gRA(),a2!=null,a1,a3.d)
+a1=new A.tK(b,new A.a_Z(new A.JK(k,d,B.aI,c,s,a,a0,a4)),B.x,B.yJ,B.bO,!0,B.M_,!0,a4,a3.gRA(),a2!=null,a1,a3.d)
 return a1}}
 A.a_Z.prototype={
 $2(a,b){return A.Ae(this.a,b)},
@@ -59248,52 +59248,52 @@ ao(){return new A.vR()}}
 A.vR.prototype={
 aH(){var s,r=this
 r.b4()
-r.e=$.ai7()
+r.f=$.ai7()
 s=new A.Am()
 B.bS.h0(s.ga3p())
-r.f=s
+r.r=s
 r.jH()},
 jH(){var s=0,r=A.L(t.H),q=this,p
 var $async$jH=A.M(function(a,b){if(a===1)return A.I(b,r)
-for(;;)switch(s){case 0:p=q.e
+for(;;)switch(s){case 0:p=q.f
 p===$&&A.b()
 s=2
 return A.O(p.ds(),$async$jH)
-case 2:p=q.f
+case 2:p=q.r
 p===$&&A.b()
 s=3
 return A.O(p.p6(0.5),$async$jH)
 case 3:s=4
-return A.O(q.f.p8(1),$async$jH)
+return A.O(q.r.p8(1),$async$jH)
 case 4:s=5
-return A.O(q.f.oY(1),$async$jH)
+return A.O(q.r.oY(1),$async$jH)
 case 5:return A.J(null,r)}})
 return A.K($async$jH,r)},
 wb(){var s=0,r=A.L(t.H),q=this
 var $async$wb=A.M(function(a,b){if(a===1)return A.I(b,r)
-for(;;)switch(s){case 0:if(q.r)q.qb()
+for(;;)switch(s){case 0:if(q.w)q.qb()
 else q.nc()
 return A.J(null,r)}})
 return A.K($async$wb,r)},
 nc(){var s=0,r=A.L(t.H),q=this,p
 var $async$nc=A.M(function(a,b){if(a===1)return A.I(b,r)
-for(;;)switch(s){case 0:p=q.e
+for(;;)switch(s){case 0:p=q.f
 p===$&&A.b()
 s=4
 return A.O(p.ds(),$async$nc)
 case 4:s=b?2:3
 break
 case 2:q.aI(new A.a2n(q))
-p=q.f
+p=q.r
 p===$&&A.b()
 s=5
 return A.O(p.mt(""),$async$nc)
-case 5:q.e.rD(B.yN,"en_US",new A.a2o(q),B.cA)
+case 5:q.f.rD(B.yN,"en_US",new A.a2o(q),B.cA)
 case 3:return A.J(null,r)}})
 return A.K($async$nc,r)},
 qb(){var s=0,r=A.L(t.H),q=this,p
 var $async$qb=A.M(function(a,b){if(a===1)return A.I(b,r)
-for(;;)switch(s){case 0:p=q.e
+for(;;)switch(s){case 0:p=q.f
 p===$&&A.b()
 s=2
 return A.O(p.de(),$async$qb)
@@ -59303,26 +59303,26 @@ return A.K($async$qb,r)},
 q7(a){return this.WA(a)},
 WA(a){var s=0,r=A.L(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d
 var $async$q7=A.M(function(b,c){if(b===1){o.push(c)
-s=p}for(;;)switch(s){case 0:if(m.w){s=1
+s=p}for(;;)switch(s){case 0:if(m.x){s=1
 break}m.aI(new A.a2h(m))
-l=A.eC("https://proxy.cors.sh/https://api.openai.com/v1/chat/completions")
 p=4
+h=A.eC("https://proud-breeze-2b1a.cja0731.workers.dev/v1/chat/completions")
 g=t.N
-f=A.ad(["Content-Type","application/json; charset=utf-8","Authorization","Bearer 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","x-cors-api-key","temp_57884841e25e9894f09d8d6d"],g,g)
+f=A.ad(["Content-Type","application/json; charset=utf-8","Authorization","Bearer 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"],g,g)
 s=7
-return A.O(A.atn(l,B.aq.ly(A.ad(["model","gpt-4o","messages",A.d([A.ad(["role","system","content","You are E.V., a helpful concise voice assistant. 1. Default rule: Respond in concise English (within 2-3 sentences). 2. Exception: If the user asks for Korean translations, word definitions, or search inquiries in Korean, explain or respond in Korean naturally."],g,g),A.ad(["role","user","content",a],g,g)],t.A7),"max_tokens",150],g,t.K),null),f).zP(B.yJ),$async$q7)
-case 7:k=c
-if(k.b===200){j=B.aq.qM(B.G.dk(k.w),null)
-i=J.iC(J.iC(J.iC(J.iC(j,"choices"),0),"message"),"content")
-m.aI(new A.a2i(m,i))
-m.la(i)}else m.aI(new A.a2j(m,k))
+return A.O(A.atn(h,B.aq.ly(A.ad(["model","gpt-4o","messages",A.d([A.ad(["role","system","content","You are E.V., a helpful concise voice assistant. 1. Default rule: Respond in concise English (within 2-3 sentences). 2. Exception: If the user asks for Korean translations, word definitions, or search inquiries in Korean, explain or respond in Korean naturally."],g,g),A.ad(["role","user","content",a],g,g)],t.A7),"max_tokens",150],g,t.K),null),f).zP(B.yK),$async$q7)
+case 7:l=c
+if(l.b===200){k=B.aq.qM(B.G.dk(l.w),null)
+j=J.iC(J.iC(J.iC(J.iC(k,"choices"),0),"message"),"content")
+m.aI(new A.a2i(m,j))
+m.la(j)}else m.aI(new A.a2j(m,l))
 n.push(6)
 s=5
 break
 case 4:p=3
 d=o.pop()
-h=A.a_(d)
-m.aI(new A.a2k(m,h))
+i=A.a_(d)
+m.aI(new A.a2k(m,i))
 n.push(6)
 s=5
 break
@@ -59339,7 +59339,7 @@ WZ(a){var s=0,r=A.L(t.H),q=this,p,o
 var $async$la=A.M(function(b,c){if(b===1)return A.I(c,r)
 for(;;)switch(s){case 0:p=A.bS("[\u3131-\u314e|\u314f-\u3163|\uac00-\ud7a3]",!1)
 o=p.b.test(a)
-p=q.f
+p=q.r
 s=o?2:4
 break
 case 2:p===$&&A.b()
@@ -59350,62 +59350,62 @@ break
 case 4:p===$&&A.b()
 s=6
 return A.O(p.mo("en-US"),$async$la)
-case 6:case 3:p=q.f
+case 6:case 3:p=q.r
 p===$&&A.b()
 s=7
 return A.O(p.mt(a),$async$la)
 case 7:return A.J(null,r)}})
 return A.K($async$la,r)},
-O(a){var s,r,q,p,o,n,m=this,l=null,k=A.E0("You said:",A.jw(l,l,B.bL,l,l,l,l,l,l,l,l,14,l,l,l,l,l,!0,l,l,l,l,l,l,l,l)),j=m.x
+O(a){var s,r,q,p,o,n,m=this,l=null,k=A.E0("You said:",A.jw(l,l,B.bL,l,l,l,l,l,l,l,l,14,l,l,l,l,l,!0,l,l,l,l,l,l,l,l)),j=m.y
 j=A.E0(j.length===0?"(Waiting for speech...)":j,B.IQ)
 s=A.E0("E.V. Response:",A.jw(l,l,B.bL,l,l,l,l,l,l,l,l,14,l,l,l,l,l,!0,l,l,l,l,l,l,l,l))
 r=A.yH(12)
-r=A.abX(A.E0(m.y,B.Iv),new A.f7(B.jJ,l,l,r,l,l,B.bf),l,l,B.z_,l)
-q=m.r?B.Dq:B.pp
+r=A.abX(A.E0(m.z,B.Iv),new A.f7(B.jJ,l,l,r,l,l,B.bf),l,l,B.z_,l)
+q=m.w?B.Dq:B.pp
 q=A.aly(l,l,q,l,l,l,l,l,l,B.i,l,l,B.yY,l,new A.cV(A.yH(30),B.u),l,l,l,l,l)
-p=m.r
+p=m.w
 o=A.acK(p?B.zq:B.zp,l)
 n=A.E0(p?"Stop Standby Mode":"Start Standby Mode",B.KK)
 return new A.u5(new A.pD(B.LS,!0,new A.Ib(l,l,1/0,56),l),new A.j8(B.z1,A.akK(A.d([k,B.uK,j,B.H1,s,B.uK,r,B.H2,new A.A0(!0,m.gXf(),l,l,l,q,B.aa,l,!1,l,l,new A.G7(n,o,q,l,l),l)],t.nA),B.cx,B.pe),l),l)}}
 A.a2n.prototype={
 $0(){var s=this.a
-s.r=!0
-s.x=""
-s.y="Listening..."},
+s.w=!0
+s.y=""
+s.z="Listening..."},
 $S:0}
 A.a2o.prototype={
 $1(a){var s,r=this.a
 r.aI(new A.a2m(r,a))
 s=a.a
-if(B.c.kD(s.length!==0?B.b.gL(s).a:"").length!==0&&!r.w)r.q7(s.length!==0?B.b.gL(s).a:"")},
+if(B.c.kD(s.length!==0?B.b.gL(s).a:"").length!==0&&!r.x)r.q7(s.length!==0?B.b.gL(s).a:"")},
 $S:390}
 A.a2m.prototype={
 $0(){var s=this.b.a
 s=s.length!==0?B.b.gL(s).a:""
-this.a.x=s},
+this.a.y=s},
 $S:0}
 A.a2p.prototype={
 $0(){var s=this.a
-s.r=!1
-s.y="Standby mode deactivated."},
+s.w=!1
+s.z="Standby mode deactivated."},
 $S:0}
 A.a2h.prototype={
 $0(){var s=this.a
-s.w=!0
-s.y="Thinking..."},
+s.x=!0
+s.z="Thinking..."},
 $S:0}
 A.a2i.prototype={
-$0(){this.a.y=this.b},
+$0(){this.a.z=this.b},
 $S:0}
 A.a2j.prototype={
 $0(){var s=this.b
-this.a.y="API Error ("+s.b+"):\n"+A.asG(A.aqU(s.e)).dk(s.w)},
+this.a.z="API Error ("+s.b+"):\n"+A.asG(A.aqU(s.e)).dk(s.w)},
 $S:0}
 A.a2k.prototype={
-$0(){this.a.y="Error Details:\n"+A.k(this.b)},
+$0(){this.a.z="Error Details:\n"+A.k(this.b)},
 $S:0}
 A.a2l.prototype={
-$0(){this.a.w=!1},
+$0(){this.a.x=!1},
 $S:0}
 A.ZE.prototype={
 gt(a){return this.c.length},
@@ -62640,8 +62640,8 @@ B.yI=new A.qF(null,null,null,null)
 B.x=new A.aU(0)
 B.bO=new A.aU(1e5)
 B.fN=new A.aU(1e6)
-B.yJ=new A.aU(12e6)
-B.yK=new A.aU(15e5)
+B.yJ=new A.aU(15e5)
+B.yK=new A.aU(15e6)
 B.yL=new A.aU(16667)
 B.ap=new A.aU(2e5)
 B.cA=new A.aU(2e6)
