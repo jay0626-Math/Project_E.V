@@ -59307,7 +59307,7 @@ h=A.eC("https://api.groq.com/openai/v1/chat/completions")
 g=t.N
 f=A.ad(["Content-Type","application/json; charset=utf-8","Authorization","Bearer "+m.d],g,g)
 s=7
-return A.O(A.atn(h,B.aq.ly(A.ad(["model","llama-3.1-80b-instant","messages",A.d([A.ad(["role","system","content","You are E.V., a helpful concise voice assistant. 1. Default rule: Respond in concise English (within 2-3 sentences). 2. Exception: If the user asks for Korean translations, word definitions, or search inquiries in Korean, explain or respond in Korean naturally."],g,g),A.ad(["role","user","content",a],g,g)],t.A7),"max_tokens",150],g,t.K),null),f).zP(B.yK),$async$q7)
+return A.O(A.atn(h,B.aq.ly(A.ad(["model","llama3-8b-8192","messages",A.d([A.ad(["role","system","content","You are E.V., a helpful concise voice assistant. 1. Default rule: Respond in concise English (within 2-3 sentences). 2. Exception: If the user asks for Korean translations, word definitions, or search inquiries in Korean, explain or respond in Korean naturally."],g,g),A.ad(["role","user","content",a],g,g)],t.A7),"max_tokens",150],g,t.K),null),f).zP(B.yK),$async$q7)
 case 7:l=c
 if(l.b===200){k=B.aq.qM(B.G.dk(l.w),null)
 j=J.iC(J.iC(J.iC(J.iC(k,"choices"),0),"message"),"content")
